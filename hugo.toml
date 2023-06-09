@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "http://crackzj.github.io"
 title        = "卜夋小站"
 languageCode = "en-us"
 theme        = "hello-4s3ti"
