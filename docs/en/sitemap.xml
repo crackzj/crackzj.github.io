@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://crackzj.github.io/posts/</loc>
+    <lastmod>2023-06-08T15:59:29+08:00</lastmod>
+  </url><url>
+    <loc>http://crackzj.github.io/</loc>
+    <lastmod>2023-06-08T15:59:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://crackzj.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://crackzj.github.io/"
+                />
+  </url><url>
+    <loc>http://crackzj.github.io/posts/my-first-post/</loc>
+    <lastmod>2023-06-08T15:59:29+08:00</lastmod>
+  </url><url>
     <loc>http://crackzj.github.io/blog/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,18 +55,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://crackzj.github.io/tags/"
-                />
-  </url><url>
-    <loc>http://crackzj.github.io/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://crackzj.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://crackzj.github.io/"
                 />
   </url>
 </urlset>
