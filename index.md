@@ -5,13 +5,13 @@ layout: home
 hero:
   name: "Crackzj's Blog"
   text: "卜夋小站"
-  tagline: My great project tagline
+  tagline: 欢迎来到我的小破站
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 前端杂记
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 更多
       link: /api-examples
 
 features:
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
