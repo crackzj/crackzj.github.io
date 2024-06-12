@@ -1,10 +1,1 @@
-import { vueMenu } from "./vueMenu";
-import { reactMenu } from "./reactMenu";
-import { htmlMenu } from "./htmlMenu";
-import { otherMenu } from "./otherMenu";
-export default {
-	...vueMenu,
-	...reactMenu,
-	...htmlMenu,
-	...otherMenu,
-};
+export default {"/docs/database/":[{"text":"database学习日记","items":[{"text":"index","link":"/docs/database/index"}]}],"/docs/go/":[{"text":"go学习日记","items":[{"text":"index","link":"/docs/go/index"}]}],"/docs/html/":[{"text":"html学习日记","items":[{"text":"index","link":"/docs/html/index"}]}],"/docs/html/js/":[{"text":"js学习日记","items":[{"text":"index","link":"/docs/html/js/index"}]}],"/docs/ios/":[{"text":"ios学习日记","items":[{"text":"index","link":"/docs/ios/index"}]}],"/docs/java/":[{"text":"java学习日记","items":[{"text":"index","link":"/docs/java/index"}]}],"/docs/other/":[{"text":"other学习日记","items":[{"text":"index","link":"/docs/other/index"}]}],"/docs/python/":[{"text":"python学习日记","items":[{"text":"index","link":"/docs/python/index"}]}],"/docs/react/":[{"text":"react学习日记","items":[{"text":"index","link":"/docs/react/index"},{"text":"one","link":"/docs/react/one"}]}],"/docs/vue/":[{"text":"vue学习日记","items":[{"text":"index","link":"/docs/vue/index"},{"text":"vue3入门","link":"/docs/vue/vue3入门"},{"text":"vuerouter","link":"/docs/vue/vuerouter"}]}]}
