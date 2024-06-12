@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-
+import sidebar from "./theme/sidebar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	head: [["link", { rel: "icon", href: "/favicon.ico" }]],
@@ -19,6 +19,21 @@ export default defineConfig({
 					{ text: "html", link: "/docs/html" },
 				],
 			},
+			{
+				text: "后端",
+				items: [
+					{ text: "Golang", link: "/docs/go" },
+					{ text: "Java", link: "/docs/java" },
+					{ text: "Python", link: "/docs/python" },
+				],
+			},
+			{
+				text: "移动端",
+				items: [
+					{ text: "ios", link: "/docs/ios" },
+					{ text: "android", link: "/docs/android" },
+				],
+			},
 			{ text: "更多", link: "/docs/other" },
 		],
 
@@ -31,43 +46,7 @@ export default defineConfig({
 		// 		],
 		// 	},
 		// ],
-		sidebar: {
-			"/docs/vue/": [
-				{
-					text: "GUide",
-					items: [
-						{ text: "index", link: "/docs/vue/" },
-						{ text: "one", link: "/docs/vue/one" },
-					],
-				},
-			],
-			"/docs/react": [
-				{
-					text: "React",
-					items: [
-						{ text: "index", link: "/docs/react/" },
-						{ text: "one", link: "/docs/react/one" },
-					],
-				},
-			],
-			"/docs/html/": [
-				{
-					text: "HTML",
-				},
-				{
-					text: "CSS",
-				},
-				{
-					text: "JavaScript",
-				},
-			],
-			"/docs/other/": [
-				{
-					text: "杂记",
-					items: [],
-				},
-			],
-		},
+		sidebar: sidebar,
 
 		socialLinks: [{ icon: "github", link: "https://github.com/crackzj" }],
 		footer: {
