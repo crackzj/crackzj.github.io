@@ -1,4 +1,4 @@
-<!-- ---
+---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
@@ -21,6 +21,4 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: pinia
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
---- -->
-
-# heloo
+---
