@@ -1,6 +1,13 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+head:
+  - - meta
+    - name: description
+      content: 卜夋的博客
+  - - meta
+    - name: baidu-site-verification
+      content: codeva-BWBHS9CfnG
 
 hero:
   name: "Crackzj's Blog"
