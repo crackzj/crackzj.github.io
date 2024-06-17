@@ -1,5 +1,7 @@
 import { readdir, writeFile, stat } from "node:fs/promises";
+import http from 'node:http'
 import { Buffer } from "node:buffer";
+const domain = 'https://boyhack.com/'
 const resultMap = [];
 async function readDir(rootDir) {
   try {
@@ -18,6 +20,7 @@ async function readDir(rootDir) {
 }
 
 function generateTemplate(data = []) {
+
   const menus = {};
   data.forEach((item) => {
     const [key, val] = item.split("-");
@@ -37,6 +40,7 @@ function generateTemplate(data = []) {
       ];
     }
   });
+
   try {
     const controller = new AbortController();
     const { signal } = controller;
