@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  text: "golang 学习日记"
-  tagline: 卜夋学golang
+  text: "python 学习日记"
+  tagline: 卜夋学python
 
 features:
   - title: python基础知识
