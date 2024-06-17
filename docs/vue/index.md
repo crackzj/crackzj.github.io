@@ -16,9 +16,12 @@ hero:
 
 features:
   - title: vue3
+    link: vue3/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: vue-router
+    link: roter/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: pinia
+    link: pinia/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

@@ -13,22 +13,25 @@ hero:
   name: "Crackzj's Blog"
   text: "卜夋小站"
   tagline: 欢迎来到我的小破站
-  actions:
-    - theme: brand
-      text: 前端杂记
-      link: /markdown-examples
-    - theme: alt
-      text: 更多
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: 前端杂记
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: 更多
+  #     link: /api-examples
 
 features:
-  - title: 前端
-    link: /front
+  - title: Golang
+    link: docs/go/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 后端
-    link: /backend
+  - title: Java
+    link: docs/java/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 移动端
-    link: /mobile
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Python
+    link: docs/python/
+    details: HTML5 and JacaScript2015 later and CSS3
+  - title: Rust
+    link: docs/rust/
+    details: HTML5 and JacaScript2015 later and CSS3
 ---

@@ -13,26 +13,29 @@ export default defineConfig({
 			{ text: "首页", link: "/" },
 			{
 				text: "前端",
-				items: [
-					{ text: "vue", link: "/docs/vue/index" },
-					{ text: "react", link: "/docs/react" },
-					{ text: "html", link: "/docs/html" },
-				],
+				link: "/front",
+				// items: [
+				// 	{ text: "vue", link: "/docs/vue/index" },
+				// 	{ text: "react", link: "/docs/react" },
+				// 	{ text: "html", link: "/docs/html" },
+				// ],
 			},
 			{
 				text: "后端",
-				items: [
-					{ text: "Golang", link: "/docs/go" },
-					{ text: "Java", link: "/docs/java" },
-					{ text: "Python", link: "/docs/python" },
-				],
+				link: "/backend",
+				// items: [
+				// 	{ text: "Golang", link: "/docs/go" },
+				// 	{ text: "Java", link: "/docs/java" },
+				// 	{ text: "Python", link: "/docs/python" },
+				// ],
 			},
 			{
 				text: "移动端",
-				items: [
-					{ text: "ios", link: "/docs/ios" },
-					{ text: "android", link: "/docs/android" },
-				],
+				link: "/mobile",
+				// items: [
+				// 	{ text: "ios", link: "/docs/ios" },
+				// 	{ text: "android", link: "/docs/android" },
+				// ],
 			},
 			{ text: "更多", link: "/docs/other" },
 		],
