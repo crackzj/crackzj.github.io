@@ -1,3 +1,9 @@
+---
+next:
+  text: "基本数据类型"
+  link: "/docs/python/base/python基本数据类型"
+---
+
 # `Python`
 
 > `python`是一门面向对象的高级编程语言，由`Guido van Rossum`创立于 1991 年。
@@ -9,11 +15,13 @@
 ## `PYTHON`能做什么
 
 - 网站开发
-	- `Django` `Flash`
+
+  - `Django` `Flash`
 
 - 科学计算 人工智能
-	- `Numpy` `Scipy`
-	- `TensorFlow` `Pytorch`
+
+  - `Numpy` `Scipy`
+  - `TensorFlow` `Pytorch`
 
 - 系统管理
 
