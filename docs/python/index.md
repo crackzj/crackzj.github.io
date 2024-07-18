@@ -11,7 +11,7 @@ features:
     link: base/
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: python标准库
-    link: lib/matplotlib
+    link: lib/matplotlib.html
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: web框架
     link: framwork/
