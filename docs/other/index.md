@@ -21,6 +21,7 @@ features:
   - title: Let's Encrypt
     details: 为 3.63 亿网站提供 TLS 证书的非营利证书颁发机构
     link: ssl/
-  - title: CSS 3
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Godot
+    details: Your free, open‑source game engine.Develop your 2D & 3D games, cross-platform projects, or even XR ideas!
+    link: godot/
 ---
